@@ -1,0 +1,146 @@
+/*------------------------------------------------------------------*/
+/*------------------ RESET INITIAL CONFIGURATION ------------------*/
+/*----------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242739;
+}
+
+.container {
+    width: 100%;
+    min-width: 720px;
+    margin: 0 auto;
+}
+
+/*-----------------------------------------------------------------*/
+/*------------------           HEADER           ------------------*/
+/*---------------------------------------------------------------*/
+/* .header {
+    height: 50px;
+} */
+
+/*----------------------------------------------------------------*/
+/*------------------           CARD POST        -----------------*/
+/*--------------------------------------------------------------*/
+.card-post {
+    width: 40%;
+    background-color: #2F3644;
+    margin: 50px 0px 00px 50px;
+    padding: 30px 30px 20px 30px;
+    border-radius: 15px;
+    float: left;
+}
+
+.line-post {
+    height: 2px;
+    background-color: #3E445B;
+}
+
+.card-post h1,
+.card-location h1{
+    font-family: Heebo;
+    font-weight: 800;
+    text-align: center;
+
+    color: #D2DAF5;
+
+    font-size: 3rem;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+
+
+.card-body-post,
+.card-body-location {
+    margin-top: 25px;
+    
+}
+
+.fields {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 1.2rem;
+
+    color: #D2DAF5;
+
+    font-family: Poppins;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+
+    font-size: 1.2rem;
+
+    padding-left: 15px;
+}
+
+input {
+    height: 45px;
+}
+
+.cidade {
+    padding-right: 100%;
+}
+
+/*----------------------------------------------------------------*/
+/*------------------           BTN ENVIAR        ----------------*/
+/*--------------------------------------------------------------*/
+
+.btn-enviar{
+    clear: both;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-enviar button{
+    font-family: Heebo;
+    font-weight: 800;
+    font-size: 1.3rem;
+
+    padding: 5px 50px;
+    color: #fff;
+    background-color: #3DECB1;
+
+    border: 0;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+}
+
+
+/*----------------------------------------------------------------*/
+/*------------------           CARD LOCATION        -------------*/
+/*--------------------------------------------------------------*/
+.card-location {
+    width: 45%;
+    background-color: #2F3644;
+    margin: 50px 0px 5px 50px;
+    padding: 30px 70px 50px 70px;
+    border-radius: 15px;
+    float: left;
+}
+
+.card-body-location {
+    float: left;
+}
+
+.cidade {
+    width: 100%;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    border-radius: 10px;
+}
